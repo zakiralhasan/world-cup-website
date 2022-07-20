@@ -118,3 +118,27 @@ article{
 }
 .chat-and-time-icons-child-div{display: flex;}
 
+/* ------------------- footer section ----------------- */
+footer{
+    width: 1400px;
+    height: 444px;
+    background-color: #161616;
+}
+footer h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+}
+hr{
+    color: #FFFFFF;
+    opacity: 10%;
+}
+#footer-section{
+    margin: 50px 300px 130px 300px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+}
+#footer-section p{
+    padding: 10px;
+}
