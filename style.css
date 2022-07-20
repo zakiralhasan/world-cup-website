@@ -1,0 +1,43 @@
+body{
+    margin: 0; padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*------------ header section  --------------- */
+header{
+    margin: 0 auto;
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+#header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-section-div1{
+    width: 531px;
+    height: 424px;
+    margin: 0px 24px 111px 106px;
+}
+#header-section-div1 h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+#header-section-div1 p{ color: #FFFFFF;}
+#header-section-div1 div{ margin-top: 30px;}
+#live-butoon{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+.fa-angle-right{ margin-left: 10px;}
+#header-section-div2{
+    width: 581px;
+    height: 613px;
+    margin: 33px 80px 0 0;
+}
