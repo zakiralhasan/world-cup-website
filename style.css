@@ -83,8 +83,155 @@ main{
 #blog-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 50px;  
+    grid-row-gap: 20px;  
     grid-column-gap: 20px;
+}
+.blog-section-divs{
+    width: 312px;
+    height: 362px;    
+}
+article{    
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.article-image{
+    width: 312px;
+    height: 175px;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.article-button{
+    border: 1px solid #161616;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 16px 4px 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.blog-section-divs p{margin-left: 20px;}
+.chat-and-time-icons-main-div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.chat-and-time-icons-child-div{display: flex;}
+
+/* -------------------- view all section ---------------------- */
+
+#view-all-section{display: none;}
+
+/* ------------------- footer section ----------------- */
+footer{
+
+    background-color: #161616;
+    padding-bottom: 30px;
+}
+footer h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+}
+hr{
+    color: #FFFFFF;
+    opacity: 10%;
+}
+#footer-section{
+    margin: 50px 300px 130px 300px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+}
+#footer-section p{
+    padding: 10px;
+}
+
+
+
+/* ---------------------------------------- Tablate view ------------------------------------ */
+
+
+
+
+@media screen and (min-width:768px) and (max-width:922px) {
+    /*------------ header section  --------------- */
+header{
+    margin: 0 auto;
+    width: 734px;
+    height: 398px;
+    border-radius: 30px;
+}
+#header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-section-div1{
+    width: 316px;
+    height: 276px;
+    margin: 0px 17px 90px 76px;
+}
+#header-section-div1 h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+#header-section-div1 p{ font-size: 14px;}
+#header-section-div1 div{ margin-top: 20px;}
+#live-butoon{
+    padding: 12px 12px;
+    border-radius: 5px;
+}
+.fa-angle-right{ margin-left: 10px;}
+#header-section-div2{
+    width: 323px;
+    height: 340px;
+    margin: 58px 17px 0 0;
+}
+#header-section-div2 img{width: 100%;}
+
+/* ------------- main section ---------------------- */
+
+main{
+    width: 734px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 50px auto;
+}
+/* ---------------- side section ---------------------*/
+
+aside{
+    display: flex;
+}
+#side-section{
+    width: 734px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.side-section-button{
+    margin: 30px;
+    padding: 17px 39px;
+    border: 1px solid #161616;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #161616;
+    text-align: center;
+}
+.side-section-button a{text-decoration: none;}
+.blog-button{background-color: #DD0000; border: none;}
+.blog-button a{color: #FFFFFF;}
+
+/* ------------------- blog section -------------------------*/
+
+#blog-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 40px;  
+    grid-column-gap: 20px;
+    margin-bottom: 50px;
 }
 .blog-section-divs{
     width: 312px;
@@ -117,28 +264,48 @@ article{
     margin-bottom: 20px;
 }
 .chat-and-time-icons-child-div{display: flex;}
+/* -------------------- view all section ---------------------- */
+
+#view-all-section{
+    display: contents;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+#view-all-section a{
+    text-decoration: none;
+    padding: 12px 29px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
 
 /* ------------------- footer section ----------------- */
 footer{
-    width: 1400px;
-    height: 444px;
     background-color: #161616;
 }
 footer h1{
     color: #FFFFFF;
     text-align: center;
-    padding-top: 130px;
+    /* padding-top: 130px; */
 }
 hr{
     color: #FFFFFF;
     opacity: 10%;
 }
 #footer-section{
-    margin: 50px 300px 130px 300px;
-    display: flex;
+    margin: 70px 35px 70px 35px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     color: #FFFFFF;
     justify-content: center;
 }
 #footer-section p{
     padding: 10px;
 }
+
+}
+
